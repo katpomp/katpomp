@@ -8,13 +8,13 @@ app = Flask(__name__)
 def index():
     return flask.render_template('index.html')
 
-@app.route('/')
+@app.route('/whyilovebella')
 def whyilovebella():
     return flask.render_template('whyilovebella.html')
 
-@app.route('/')
+@app.route('/about')
 def aboutme():
-    return flask.render_template('aboutme.html')
+    return flask.render_template('about.html')
 
 
 if __name__ == "__main__":
