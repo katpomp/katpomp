@@ -9,5 +9,5 @@ services:
      ports:
        - "42069:42069"
      environment:
-       - HOST="127.0.0.1"
+       - HOST=127.0.0.1
        - PORT=42069
