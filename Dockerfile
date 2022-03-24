@@ -7,4 +7,4 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python","main.py"]
+ENTRYPOINT ["waitress-serve", "--port=5000", "main:app"]
