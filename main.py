@@ -1,5 +1,7 @@
 import flask
 from flask import Flask
+from waitress import serve
+from os import getenv
 
 app = Flask(__name__)
 
@@ -18,4 +20,4 @@ def aboutme():
 
 
 if __name__ == "__main__":
-    app.run()
+    serve(app, getenv('HOST'), getenv('PORT'))
