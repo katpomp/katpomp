@@ -18,6 +18,3 @@ def whyilovebella():
 def aboutme():
     return flask.render_template('aboutme.html')
 
-
-#if __name__ == "__main__":
-#    serve(app, host=getenv('HOST'), port=getenv('PORT'))
