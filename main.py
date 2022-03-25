@@ -1,5 +1,6 @@
 import flask
 from flask import Flask
+from waitress import serve
 from os import getenv
 
 app = Flask(__name__)
@@ -9,11 +10,9 @@ app = Flask(__name__)
 def index():
     return flask.render_template('index.html')
 
-
 @app.route('/links')
 def whyilovebella():
     return flask.render_template('links.html')
-
 
 @app.route('/aboutme')
 def aboutme():

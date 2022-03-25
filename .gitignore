@@ -1,1 +1,4 @@
 katpomp.katpomp.com
+.idea/
+__pycache__
+.env.example
