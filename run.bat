@@ -1,0 +1,1 @@
+"C:\Users\814263\AppData\Local\Programs\Python\Python39\Scripts\waitress-serve.exe" --port=5000 main:app
