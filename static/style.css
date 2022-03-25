@@ -1,0 +1,37 @@
+*, html {
+    background-color: lightslategray;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+img.homerun {
+    width: 80ex;
+    length: 60ex;
+}
+
+h1.name {
+    margin-top: 20px;
+    font-size: xxx-large;
+    color: darkslateblue;
+    margin-bottom: 6px;
+}
+
+h3.shortbio {
+    font-size: large;
+    margin-top: 6px;
+}
+
+a.links {
+    font-size: xx-large;
+    margin-top: 6ex;
+}
+
+img.seniorpic {
+    margin-top: 2em;
+    min-width: 32px;
+    max-width: 10%;
+    border-radius: 75%;
+    margin-left: 15px;
+    opacity: 100%;
+    align-items: center;
+}
