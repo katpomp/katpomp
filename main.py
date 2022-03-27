@@ -5,7 +5,6 @@ from os import getenv
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
     return flask.render_template('index.html')
@@ -18,3 +17,6 @@ def whyilovebella():
 def aboutme():
     return flask.render_template('aboutme.html')
 
+@app.route('/myfriends')
+def myfriends():
+    return flask.render_template('myfriends.html'')
