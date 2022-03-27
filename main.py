@@ -19,4 +19,4 @@ def aboutme():
 
 @app.route('/myfriends')
 def myfriends():
-    return flask.render_template('myfriends.html'')
+    return flask.render_template('myfriends.html')
