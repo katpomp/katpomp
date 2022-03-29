@@ -1,18 +1,15 @@
 let slideIndex = 1;
 
-// function to call on load to add the listener
 const addListener = () => {
     window.addEventListener('DOMContentLoaded', () => {
         showSlides(slideIndex)
     });
 };
 
-// Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
