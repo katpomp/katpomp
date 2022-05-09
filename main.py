@@ -1,26 +1,16 @@
-import flask
-from flask import Flask
-from waitress import serve
-from os import getenv
+# This is a sample Python script.
 
-app = Flask(__name__)
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-@app.route('/')
-def index():
-    return flask.render_template('index.html')
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-@app.route('/links')
-def whyilovebella():
-    return flask.render_template('links.html')
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-
-@app.route('/aboutme')
-def aboutme():
-    return flask.render_template('aboutme.html')
-
-
-@app.route('/myfriends')
-def myfriends():
-    return flask.render_template('myfriends.html')
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
