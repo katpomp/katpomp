@@ -11,9 +11,9 @@ def index():
     return flask.render_template('index.html')
 
 
-@app.route('/links')
+@app.route('/projects')
 def whyilovebella():
-    return flask.render_template('links.html')
+    return flask.render_template('projects.html')
 
 
 @app.route('/aboutme')
