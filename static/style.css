@@ -28,10 +28,9 @@ h3.shortbio {
 }
 
 img.social {
-    padding-top: 1ex
     width: 8%;
     height: 8%;
-    align-items: center;
+    padding-top: 1ex;
 }
 
 img.seniorpic {
