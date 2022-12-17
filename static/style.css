@@ -7,7 +7,7 @@ body {
 }
 
 img.index {
-    width: 32%;
+    width: 33.02%;
     border: solid black;
 }
 
@@ -28,8 +28,10 @@ h3.shortbio {
 }
 
 img.social {
-    width: 6ex;
-    height: 6ex;
+    padding-top: 1ex
+    width: 8%;
+    height: 8%;
+    align-items: center;
 }
 
 img.seniorpic {
